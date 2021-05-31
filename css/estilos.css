@@ -1,0 +1,297 @@
+/* Estilos Generales */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-rendering: optimizeLegibility;
+    color: #272E62;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+aside {
+    width: 90%;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+/* Layout */
+
+.hero {
+    height: 100vh;
+    background: rgb(15,205,224);
+    background: linear-gradient(161deg, rgba(15,205,224,1) 0%, rgba(98,133,234,1) 29%, rgba(211,34,249,1) 79%, rgba(164,76,243,1) 93%, rgba(241,9,253,1) 100%);
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #fff;
+}
+
+.hero-body {
+    padding: 0 40px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    min-height: 330px;
+}
+
+.intro-hero {
+    height: 200px;
+    font-weight: 700;
+}
+
+.hero-body img {
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px 20px;
+}
+
+aside li a {
+    border-radius: 25px;
+    display: block;
+    padding: 1em 0.75em;
+    margin-bottom: 10px;
+}
+
+aside li a:hover {
+    background: #f4f4f4;
+}
+
+aside li a.is-active {
+    background-color: #614CD4;
+    color: #fff;
+}
+
+.contenido-sitio h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.3em;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.card-content h3 a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #8C60F0;
+    font-weight: 700;
+}
+
+.card-content h3 a:hover {
+    color: #CB28F8;
+}
+
+a.btn-cta {
+    background: #8C60F0;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a.btn-cta:hover {
+    background: #CB28F8;
+}
+
+.img-content {
+    width: 300px;
+    margin: 0 auto 20px;
+}
+
+.img-content img {
+    width: 100%;
+}
+
+.text-content p {
+    font-size: 0.85em;
+}
+
+.hero header {
+    padding: 10px 0;
+}
+
+.hero header img {
+    padding: 10px 0;
+}
+
+.logo-men img {
+    width: 200px;
+}
+
+.logo-site {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.col {
+    margin-bottom: 50px;
+}
+
+footer {
+    align-content: center;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+.brand-footer {
+    background-color: #0541BB;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-footer ul {
+    margin: 30px 0 40px;
+    padding: 0;
+}
+
+.brand-footer ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.brand-footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.institucional {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+}
+
+.edusitios a {
+    padding: 10px 40px;
+    background-color: #F94093;
+    border-radius: 0.5rem;
+}
+
+/* Responsive */
+
+@media (min-width: 992px) {
+    aside {
+        width: 30%;
+        text-align: left;
+    }
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .hero header {
+        padding: 40px 120px 0 0;
+        margin-bottom: 30px;
+    }
+    .logo-men img {
+        width: 300px;
+    }
+    .logo-site {
+        padding: 0;
+    }
+    .hero-body {
+        flex-direction: row;
+        align-items: center;
+        background: url('../assets/bg-hero-ilustrado.svg') no-repeat;
+        background-position-x: 100px;
+    }
+    .intro-hero {
+        width: 800px;
+        text-align: center;
+        padding-right: 40px;
+        font-size: 1.8em;
+        line-height: 1.2em;
+    }
+    .main {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .contenido-sitio {
+        width: 70%;
+        padding: 80px 0 0 150px;
+        box-sizing: border-box;
+    }
+    aside li a {
+        border-radius: 0 25px 25px 0;
+        padding: 1em 1.2em;
+    }
+    .card-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: left;
+        margin: 50px auto 80px;
+    }
+    .img-content {
+        margin: 0;
+    }
+    .text-content {
+        width: 350px;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    .col {
+        margin: 0;
+    }
+    .brand-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+    .footer-nav {
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        align-items: center;
+        width:70%;
+    }
+    .links-footer {
+        margin-right: 100px;
+        text-align: left;
+    }
+    .institucional {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+        width: 900px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>Talento Digital</title>
+    <script src="./js/menu.js"></script>
+    <script src="./js/tabs.js"></script>
+</head>
+<body>
+
+    <section class="hero">
+
+        <!-- Cabezote -->
+
+        <header>
+
+            <nav>
+                <div class="container">
+                    <div class="logo-men">
+                        <img src="./assets/logo-ministerio-educacion.svg" alt="Logo del Ministerio de Educación Nacional">
+                    </div>
+                    <div class="logo-site">
+                        <img src="./assets/logo-talento-digital.png" alt="Aplicación vectorial de Talento Digital">
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <!-- Contenido -->
+
+        <div class="hero-body">
+
+            <div class="container-hero">
+
+                <div class="intro-hero">
+                    <p>En este espacio encontrarás contenidos y herramientas para potenciar el talento digital del futuro.</p>
+                    <img src="./assets/arrow-down.svg" alt="Para promover la lectura de la página">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contenido -->
+
+    <section id="contenidos">
+
+        <div class="main">
+
+            <!-- Barra navegación lateral -->
+
+            <aside>
+
+                <ul class="menu-list">
+                    
+                    <li><a class="item-list is-active" onclick="openTab(event,'oferta')">Oferta de formación</a></li>
+                    <!-- <li><a class="item-list" onclick="openTab(event,'estrategia')">Estrategia pedagógica</a></li> -->
+                    <li><a class="item-list" onclick="openTab(event,'herramientas')">Caja de herramientas</a></li>
+                    <li><a class="item-list" onclick="openTab(event,'nodos')">Nodos regionales</a></li>
+                    
+                </ul>
+
+            </aside>
+
+            <!-- Nodos regionales -->
+
+            <div id="nodos" class="contenido-sitio" style="display: none;">
+
+                <header>
+
+                    <h2>Nodos regionales de los ecosistemas de innovación educativa</h2>
+
+                    <p>Próximamente</p>
+
+                </header>
+
+                <div>
+
+
+
+                </div>
+
+            </div>
+
+            <!-- Estrategia -->
+
+            <!-- <div id="estrategia" class="contenido-sitio" style="display: none">
+
+                <header>
+
+                    <h2>Estrategia pedagógica</h2>
+
+                    <p>Mauris dignissim rhoncus maximus. Ut sit amet sapien pretium, hendrerit risus id, lobortis lacus. Etiam fringilla dictum erat quis tempus. In ac erat rutrum, dapibus elit at, malesuada arcu. Fusce aliquet tincidunt sapien, sit amet imperdiet eros laoreet ut. Ut tempus tempor lacinia. Suspendisse varius gravida enim.</p>
+
+                </header>
+
+                <div>
+
+
+
+                </div>
+
+            </div> -->
+            
+            <!-- Herramientas -->
+
+            <div id="herramientas" class="contenido-sitio" style="display: none">
+
+                <header>
+
+                    <h2>Caja de herramientas</h2>
+
+                    <p>Encuentra aquí herramientas para potenciar tus habilidades relacionadas con programación, videojuegos, arte y diseño.</p>
+
+                </header>
+
+                <!-- Contenido 1 -->
+
+                <div class="card-content">
+
+                    <div class="img-content">
+                        <img src="./assets/toolbox.png" alt="Un controlador genérico de videojuegos">
+                    </div>
+
+                    <div class="text-content">
+
+                        <h3><a href="https://caja-herramientas.labtica.com/index.html" target="_blank" rel="noreferrer">Herramientas para tu futuro digital</a></h3>
+
+                        <p>Explora las herramientas que la Universidad Tecnológica de Pereira ha desarrollado para acompañar a los estudiantes de media en el fortalecimiento de sus habilidades.</p>
+
+                        <a class="btn-cta" href="https://caja-herramientas.labtica.com/index.html" target="_blank" rel="noreferrer">Ver más</a>
+
+                    </div>
+
+                </div>
+
+                <!-- Contenido 2 -->
+
+                <div class="card-content">
+
+                    <div class="img-content">
+                        <img src="./assets/guia.png" alt="Unos jóvenes tratan de orientarse en una estación de tren">
+                    </div>
+
+                    <div class="text-content">
+
+                        <h3><a href="https://caja-herramientas.labtica.com/index.html" target="_blank" rel="noreferrer">Guías docentes</a></h3>
+
+                        <p>Encuentra los documentos orientadores de la estrategia pedagógica con énfasis en talento digital para educación media.</p>
+
+                        <a class="btn-cta" href="https://caja-herramientas.labtica.com/index.html" target="_blank" rel="noreferrer">Ver más</a>
+
+                    </div>
+
+                </div>
+
+                <!-- Contenido 3 -->
+
+                <div class="card-content">
+
+                    <div class="img-content">
+                        <img src="./assets/proyectat.png" alt="Ilustración de dos jóvenes navegando">
+                    </div>
+
+                    <div class="text-content">
+
+                        <h3><a href="https://edusitios.colombiaaprende.edu.co/proyectat" target="_blank" rel="noreferrer">Proyécta-T</a></h3>
+
+                        <p>Explora la plataforma que desarrolló el Ministerio de Educación Nacional para brindar acompañamiento socio-ocupacional a todos los jóvenes del país.</p>
+
+                        <a class="btn-cta" href="https://edusitios.colombiaaprende.edu.co/proyectat" target="_blank" rel="noreferrer">Ver más</a>
+
+                    </div>
+
+                </div>
+                
+                <!-- Contenido 4 -->
+
+                <div class="card-content">
+
+                    <div class="img-content">
+                        <img src="./assets/digimente.png" alt="Un niño sonriendo">
+                    </div>
+
+                    <div class="text-content">
+
+                        <h3><a href="https://colombiaaprende.edu.co/contenidos/coleccion/digimente" target="_blank" rel="noreferrer">Digimente</a></h3>
+
+                        <p>Movilizatorio y Google News Initiative nos comparten un currículo para que todos los jóvenes puedan aprender a crear contenidos de forma creativa, mientras hacen una reflexión profunda y crítica sobre la información que circula en Internet.</p>
+
+                        <a class="btn-cta" href="https://colombiaaprende.edu.co/contenidos/coleccion/digimente" target="_blank" rel="noreferrer">Ver más</a>
+
+                    </div>
+
+                </div>
+                
+                <!-- Contenido 5 -->
+
+                <div class="card-content">
+
+                    <div class="img-content">
+                        <img src="./assets/augmented-reality.png" alt="Un niño sonriendo">
+                    </div>
+
+                    <div class="text-content">
+
+                        <h3><a href="https://colombiaaprende.edu.co/contenidos/coleccion/digimente" target="_blank" rel="noreferrer">XplorAR</a></h3>
+
+                        <p>Una aplicación de realidad aumentada para aprender sobre ciencias y matemáticas.</p>
+
+                        <a class="btn-cta" href="https://colombiaaprende.edu.co/contenidos/coleccion/digimente" target="_blank" rel="noreferrer">Ver más</a>
+
+                    </div>
+
+                </div>                
+
+            </div>
+            
+            <!-- Oferta -->
+
+            <div id="oferta" class="contenido-sitio">
+
+                <header>
+
+                    <h2>Oferta de formación</h2>
+
+                    <p>Conoce la oferta que tenemos disponible para potenciar tus habilidades en las áreas de TI y en las industrias culturales y creativas.</p>
+
+                </header>
+
+                <!-- Contenido 1 -->
+
+                <div class="card-content">
+
+                    <div class="img-content">
+                        <img src="./assets/estrategia-formacion.png" alt="Instrumentos para la educación">
+                    </div>
+
+                    <div class="text-content">
+
+                        <h3><a href="https://caja-herramientas.labtica.com/index.html" target="_blank" rel="noreferrer">Inscríbete en los cursos de la estrategia</a></h3>
+
+                        <p>De forma totalmente gratuita, podrás realizar los diferentes cursos de formación que diseñó la Universidad Tecnológica de Pereira para potenciar tus habilidades.</p>
+
+                        <a class="btn-cta" href="https://caja-herramientas.labtica.com/index.html" target="_blank" rel="noreferrer">Inscríbete</a>
+
+                    </div>
+
+                </div>
+
+            </div>            
+
+        </div>
+
+    </section>
+
+    <!-- Pata del sitio -->
+
+    <footer>
+        <div class="brand-footer">
+            <div class="col">
+                <a href="https://colombiaaprende.edu.co" target="_blank" rel="noreferrer"><img src="./assets/logo-colombiaaprende.png" alt="Logo del Portal Educativo Colombia Aprende" width="300" /></a>
+            </div>
+            <div class="footer-nav">
+                <!-- <div class="links-footer">
+                    <ul>
+                        <li><a href="definicion.html">¿Qué es STEM?</a></li>
+                        <li><a href="ruta.html">Ruta STEM</a></li>
+                        <li><a href="contenidos.html">Contenidos</a></li>
+                        <li><a href="https://portalstem.cpe.gov.co/" target="_blank" rel="noreferrer">Portal Nacional STEM</a></li>
+                    </ul>
+                </div> -->
+                <div class="edusitios">
+                    <a target="_blank" rel="noreferrer" href="https://edusitios.colombiaaprende.edu.co">Ir al home de edusitios</a>
+                </div>
+            </div>
+        </div>            
+        <div class="institucional">
+            <div class="logoMEN">
+                <img
+                    src="./assets/men.png"
+                    width="300"
+                    alt="Logo del Ministerio de Educación Nacional"
+                />
+            </div>
+            <div class="contact-info">
+                <p>Mesa de ayuda: <a href="mailto:mesadeayuda@tecnologia.mineducacion.gov.co">mesadeayuda@tecnologia.mineducacion.gov.co</a></p>
+                <p>Línea Nacional: 01 8000 51 0258. Línea en Bogotá: 4890400</p>
+                <p>Horario de atención: Lunes a viernes, 8:00 a.m. - 5:00 p.m.</p>
+                <p>Reservados todos los derechos - <a href="https://colombiaaprende.edu.co/terminos-y-condiciones" target="_blank" rel="noreferrer">Términos y condiciones</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FGDV2QMEHM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FGDV2QMEHM');
+    </script>    
+    
+</body>
+</html>
